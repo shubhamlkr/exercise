@@ -8,7 +8,7 @@ const Home=()=>{
    
     useEffect(()=>{
    
-          axios.get('http://localhost:4000/api/workouts').
+          axios.get(' https://fine-rose-gazelle-hat.cyclic.app/api/workouts').
             then((res)=>{
                 setWorkouts(res.data)
             })

@@ -14,7 +14,7 @@ const  Update= () => {
         const workout={title,load,reps}
        
 
-        const response=await axios.patch("http://localhost:4000/api/workouts/"+id,workout)
+        const response=await axios.patch(" https://fine-rose-gazelle-hat.cyclic.app/api/workouts/"+id,workout)
        
         
 if(response.status===200){

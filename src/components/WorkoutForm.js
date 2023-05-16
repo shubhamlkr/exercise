@@ -13,7 +13,7 @@ const WorkoutForm=({handle})=>{
         const workout={title,load,reps}
        
 
-        const response=await axios.post("http://localhost:4000/api/workouts",workout)
+        const response=await axios.post(" https://fine-rose-gazelle-hat.cyclic.app/api/workouts",workout)
        
         
 if(response.status===200){

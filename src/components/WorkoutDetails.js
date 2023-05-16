@@ -3,7 +3,7 @@ import axios from "axios"
 import { Link } from "react-router-dom"
 const WorkoutDetails=({workout,hjk})=>{
     const handledelete=async()=>{
-        const res=await axios.delete("http://localhost:4000/api/workouts/"+workout._id)
+        const res=await axios.delete(" https://fine-rose-gazelle-hat.cyclic.app/api/workouts/"+workout._id)
         console.log(res.data);
         hjk();
     }
